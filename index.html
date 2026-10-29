@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>PORTFOLIO — Selected Works</title>
+  <link rel="stylesheet" href="./style.css?v=dae-20261026" />
+  <link rel="stylesheet" href="./projects.css?v=dae-20261026" />
+</head>
+<body class="home-page">
+  <header class="topbar">
+    <a class="brand" href="#top">PORTFOLIO<span>.</span></a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#works">WORKS</a>
+      <a href="#biography">BIOGRAPHY</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <div class="counter"><span id="currentNo">01</span><span>/</span><span>10</span></div>
+  </header>
+
+  <main id="top">
+    <!-- Selected work slideshow; each work opens its own page. -->
+    <section class="hero" aria-label="대표 작품 슬라이더">
+      <div class="stage" id="stage">
+        <div class="viewport" id="viewport"></div>
+
+        <button class="edge-zone edge-left" id="leftZone" type="button" aria-label="이전 작품 보기">
+          <span class="edge-copy"><small>PREV</small><b id="leftLabel">JAZZ NIGHT</b></span>
+        </button>
+        <button class="edge-zone edge-right" id="rightZone" type="button" aria-label="다음 작품 보기">
+          <span class="edge-copy"><small>NEXT</small><b id="rightLabel">URBAN LAYERS</b></span>
+        </button>
+
+        <div class="main-copy" id="mainCopy">
+          <p class="kicker" id="kicker">2023</p>
+          <h1 id="title">UFO<br>ABDUCTION</h1>
+          <p class="desc" id="desc"></p>
+          <a class="scroll-cue" id="projectLink" href="./work-ufo.html">VIEW PROJECT ↗</a>
+        </div>
+
+        <div class="bottom-ui">
+          <span class="guide">MOVE CURSOR TO THE EDGE</span>
+          <div class="progress"><span id="progressFill"></span></div>
+          <div class="controls">
+            <button class="round-btn" id="prevBtn" type="button" aria-label="이전 작품">←</button>
+            <div class="dots" id="dots"></div>
+            <button class="round-btn" id="nextBtn" type="button" aria-label="다음 작품">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 스크롤을 따라오는 우측 메뉴/연락처 -->
+    <aside class="floating-contact" id="floatingContact" aria-label="빠른 메뉴">
+      <a href="#works">Work</a>
+      <a href="#biography">Biography</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.instagram.com/cr.oh_?stkn=MXZ3MzE3ODd5N2Rzbw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+    </aside>
+
+<section class="works-section" id="works" aria-label="Selected works"><div id="archive" class="work-list">
+<article class="work-row" id="ufo">
+  <a class="work-link" href="./work-ufo.html" aria-label="UFO Abduction — 2023">
+    <div class="work-stack stack-count-2"><img class="stack-image layer-0" src="./assets/work-previews/ufo-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/ufo-02.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>UFO Abduction</h2><p><span>2023</span> Interactive Installation</p></div>
+  </a>
+</article>
+<article class="work-row" id="jazz-night">
+  <a class="work-link" href="./work-jazz-night.html" aria-label="Jazz light — 2024">
+    <div class="work-stack stack-count-2"><img class="stack-image layer-0" src="./assets/work-previews/jazz-night-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/jazz-night-film.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>Jazz light</h2><p><span>2024</span> Typography</p></div>
+  </a>
+</article>
+<article class="work-row" id="choose-your-path">
+  <a class="work-link" href="./work-choose-your-path.html" aria-label="道を選ぶ、街を歩く — 2024">
+    <div class="work-stack stack-count-3"><img class="stack-image layer-0" src="./assets/work-previews/choose-your-path-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/choose-your-path-02.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-2" src="./assets/work-previews/choose-your-path-03.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>道を選ぶ、街を歩く</h2><p><span>2024</span> Board Game Design</p></div>
+  </a>
+</article>
+<article class="work-row" id="memories-of-waste">
+  <a class="work-link" href="./work-memories-of-waste.html" aria-label="Recording Memories of Waste — 2025">
+    <div class="work-stack stack-count-3"><img class="stack-image layer-0" src="./assets/work-previews/memories-of-waste-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/memories-of-waste-02.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-2" src="./assets/work-previews/memories-of-waste-03.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>Recording Memories of Waste</h2><p><span>2025</span> Interactive Installation</p></div>
+  </a>
+</article>
+<article class="work-row" id="museum-escape">
+  <a class="work-link" href="./work-museum-escape.html" aria-label="Museum escape — 2023">
+    <div class="work-stack stack-count-3"><img class="stack-image layer-0" src="./assets/work-previews/museum-escape-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/museum-escape-03.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-2" src="./assets/work-previews/museum-escape-04.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>Museum escape</h2><p><span>2023</span> Collaborative Project/ Motion Graphics</p></div>
+  </a>
+</article>
+<article class="work-row" id="meme-vintage-shop">
+  <a class="work-link" href="./work-meme-vintage-shop.html" aria-label="MEME VINTAGE SHOP — 2025">
+    <div class="work-stack stack-count-2"><img class="stack-image layer-0" src="./assets/work-previews/meme-vintage-shop-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/meme-vintage-shop-02.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>MEME VINTAGE SHOP</h2><p><span>2025</span> Exhibition Design</p></div>
+  </a>
+</article>
+<article class="work-row" id="nutty-milk">
+  <a class="work-link" href="./work-nutty-milk.html" aria-label="Made for human, made for cow, but not milk. — 2023">
+    <div class="work-stack stack-count-3"><img class="stack-image layer-0" src="./assets/work-previews/nutty-milk-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/nutty-milk-02.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-2" src="./assets/work-previews/nutty-milk-03.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>Made for human, made for cow, but not milk.</h2><p><span>2023</span> Branding Design / Packaging Design</p></div>
+  </a>
+</article>
+<article class="work-row" id="pictogram-light">
+  <a class="work-link" href="./work-pictogram-light.html" aria-label="PICTOGRAM LIGHT — 2022">
+    <div class="work-stack stack-count-3"><img class="stack-image layer-0" src="./assets/work-previews/pictogram-light-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/pictogram-light-02.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-2" src="./assets/work-previews/pictogram-light-03.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>PICTOGRAM LIGHT</h2><p><span>2022</span> Experimental Graphic Design</p></div>
+  </a>
+</article>
+<article class="work-row" id="stress">
+  <a class="work-link" href="./work-stress.html" aria-label="STRESS — 2025">
+    <div class="work-stack stack-count-2"><img class="stack-image layer-0" src="./assets/work-previews/stress-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/stress-film.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>STRESS</h2><p><span>2025</span> Collaborative Project/Motion Graphics</p></div>
+  </a>
+</article>
+<article class="work-row" id="urban-layers">
+  <a class="work-link" href="./work-urban-layers.html" aria-label="Layers of the City — 2025">
+    <div class="work-stack stack-count-3"><img class="stack-image layer-0" src="./assets/work-previews/urban-layers-01.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-1" src="./assets/work-previews/urban-layers-02.jpg" alt="" loading="lazy" decoding="async"><img class="stack-image layer-2" src="./assets/work-previews/urban-layers-03.jpg" alt="" loading="lazy" decoding="async"></div>
+    <div class="work-caption"><h2>Layers of the City</h2><p><span>2025</span> Collaborative Project/Information Design</p></div>
+  </a>
+</article></div></section>
+<section class="biography-section" id="biography">
+      <div class="bio-label">BIOGRAPHY</div>
+      <div class="bio-copy">
+        <h2>Making images,<br>objects & interactions.</h2>
+        <!-- 작가 소개를 추가할 때 여기에 문단을 입력하세요. -->
+      </div>
+    </section>
+<footer class="contact-section" id="contact">
+      <p class="footer-kicker">CONTACT</p>
+      <h2>Let’s make<br>something together.</h2>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/cr.oh_?stkn=MXZ3MzE3ODd5N2Rzbw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+
+      </div>
+      <a class="back-top" href="#top">BACK TO TOP ↑</a>
+    </footer>
+</main><script src="./projects.js?v=dae-20261026"></script><script src="./script.js?v=dae-20261026"></script><script src="./media.js?v=dae-20261026"></script></body></html>
